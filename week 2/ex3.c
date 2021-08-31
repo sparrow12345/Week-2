@@ -7,10 +7,10 @@ int main(int argc,char **argv){
 
 	for(int i=1;i<=k;i++){
 		for(int j=0;j<k-i;j++)
-				putchar(' ');
+				printf(' ');
 		for(int j=0;j<i*2-1;j++)
-				putchar('*');
-		puts("");
+				printf("*");
+		printf("\n");
 	}
 	return 0;
 }
